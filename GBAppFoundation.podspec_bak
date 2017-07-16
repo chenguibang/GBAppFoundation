@@ -17,16 +17,15 @@ Pod::Spec.new do |s|
 
   s.name         = "GBAppFoundation"
   s.version      = "0.0.1"
-  s.summary      = "GBAppFoundation."
-
-
+  s.summary      = "0.0.1dssss "
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-very simple Foundation for quik development
+
+详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情详情
                    DESC
 
   s.homepage     = "https://github.com/chenguibang/GBAppFoundation"
@@ -39,7 +38,7 @@ very simple Foundation for quik development
   #  CocoaPods will detect a license file if there is a named LICENSE*
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
-  s.license      = "Copyright (c) 2015年 chenguibang. All rights reserved."
+
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
@@ -66,7 +65,7 @@ very simple Foundation for quik development
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "8.0"
+  # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -92,8 +91,8 @@ very simple Foundation for quik development
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "GBAppFoundation/*.{h,m}"
-  #s.exclude_files = "GBAppFoundation"
+  s.source_files  = 'GBAppFoundation/*.{h,m}'
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -131,7 +130,7 @@ very simple Foundation for quik development
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  s.requires_arc = true
+  # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"

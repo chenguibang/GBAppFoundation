@@ -2,15 +2,16 @@
 //  main.m
 //  GBAppFoundation
 //
-//  Created by ceo on 2017/7/13.
+//  Created by chenguibang on 2017/7/16.
 //  Copyright © 2017年 chengb. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import <Foundation/Foundation.h>
 
-int main(int argc, char * argv[]) {
+int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        // insert code here...
+        NSLog(@"Hello, World!");
     }
+    return 0;
 }
